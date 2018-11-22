@@ -24,8 +24,11 @@
 
 ## DOM level 2
   level 2标准针对DOM事件，定义了事件处理模型，就是事件流，包含事件捕获，处于目标阶段，事件冒泡三个阶段，并添加了绑定事件addEventListener和移除事件removeEventListener API。
+
   捕获阶段 window -> document -> body -> target
+
   处于目标阶段
+
   冒泡阶段 target -> body -> document -> window
 
 ## DOM level 3
